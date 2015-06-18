@@ -29,11 +29,12 @@ class Result
       :x.to_s=>"f",
       :y.to_s=>"g",
       :z.to_s=>"h"
-        }
-    @input= @input.split("")
-    @input.collect do |letter|
-      decoder[letter]
+       }
+    @input= @input.downcase.split("")
+    code_array=@input.collect do |letter|
+      decoder[letter.to_s]
     end
-      
+    
   end
 end
+
