@@ -1,0 +1,18 @@
+#title {
+font-family: 'Six Caps', sans-serif;
+font-size:200px;
+text-align:center;
+}
+body {
+  font-family: 'Six Caps', sans-serif;
+  font-weight:bold;
+  text-align:center;
+  color: white;
+  background: url(../images/maxresdefault.jpg);
+}
+
+#encrypted {
+  font-family:wingdings;
+  font-size:100px;
+}
+

@@ -8,10 +8,9 @@ class MyApp < Sinatra::Base
     erb :index
   end
   post '/' do
-    SquacResponse=Result.new
-    na=params[:name]
-    emo=params[:emotion]
-    @answer= SquacResponse.response(na,emo)
+    CodedResponse=Result.new
+    inp=params[:input]
+    @answer= CodedResponse.response(inp)
     erb :respond
   end
 end
