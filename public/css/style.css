@@ -1,0 +1,16 @@
+body {
+  font-family:sans-serif;
+  color: Fuchsia;
+  background:black;
+}
+h2 {
+  text-align: center
+}
+
+form {
+  border: 1px solid blue;
+  margin-left:33%;
+  margin-right:33%;
+  width:33%;
+  padding:10px;
+}
