@@ -1,6 +1,11 @@
+#title {
+font-family: 'Six Caps', sans-serif;
+font-size:400px;
+text-align:center;
+}
 body {
-  font-family:sans-serif;
-  color: Fuchsia;
+  font-family: 'Six Caps', sans-serif;;
+  color: white;
   background: url(../images/maxresdefault.jpg);
 }
 h2 {
