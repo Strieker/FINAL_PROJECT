@@ -32,9 +32,12 @@ class Result
        }
     @input= @input.downcase.split("")
     code_array=@input.collect do |letter|
-      decoder[letter.to_s]
+      if decoder[letter.to_s] == nil
+        letter
+      else
+        decoder[letter.to_s]
+      end
     end
-    
   end
 end
 
