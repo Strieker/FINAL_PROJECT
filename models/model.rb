@@ -34,7 +34,7 @@ class Result
     code_array=@input.collect do |letter|
       decoder[letter.to_s]
     end
-    
+
   end
 end
 
