@@ -9,8 +9,10 @@ class MyApp < Sinatra::Base
   end
   post '/' do
     CodedResponse=Result.new
-    inp=params[:input]
-    @answer= CodedResponse.response(inp)
+    inp1=params[:encrypt]
+    @answer1= CodedResponse.response1(inp1)
+    inp2=params[:decrypt]
+    @answer2= CodedResponse.response2(inp2)
     erb :respond
   end
 end
