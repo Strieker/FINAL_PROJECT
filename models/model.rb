@@ -2,6 +2,7 @@ class Result
   attr_accessor :input
   def response(input)
     @input=input
+    new_string=""
     decoder={
       :a.to_s=>"i",
       :b.to_s=>"j",
@@ -31,10 +32,19 @@ class Result
       :z.to_s=>"h"
        }
     @input= @input.downcase.split("")
-    code_array=@input.collect do |letter|
-      decoder[letter.to_s]
+    @input.collect do |letter|
+      if decoder[letter.to_s] == nil
+        letter
+        new_string= new_string+ letter
+      else
+        coded_letter= decoder[letter.to_s]
+        new_string= new_string+ coded_letter
+      end
     end
-
+    return new_string
   end
 end
+# Test= Result.new
+# puts Test.response("Hello World")
+
 
