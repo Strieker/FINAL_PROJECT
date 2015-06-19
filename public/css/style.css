@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Six+Caps);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 #title {
 font-family: 'Six Caps', sans-serif;
