@@ -21,13 +21,23 @@ h2 {
 }
 
 form {
-  border: 4px solid white;
+/*   border: 4px solid white;
   margin-left:33%;
   margin-right:33%;
   width:33%;
   padding:10px;
   border-radius:20%;
-  background-color: white;
+  background-color: white; */
+  /*   font-family:wingdings; */
+  font-size:20px;
+  border: 4px solid white;
+  margin-left:5%;
+  margin-right:5%;
+/*   width:80%; */
+
+  border-radius:20%;
+  background-color:white;
+  color: black;
   
 }
 .submitbutton {
@@ -37,4 +47,13 @@ form {
 
 .box {
   color: grey;
+}
+div {
+  border: 4px solid white;
+  border-radius: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  padding-top:10px;
+  padding-bottom: 10px;
 }

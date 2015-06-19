@@ -19,4 +19,7 @@ class MyApp < Sinatra::Base
     @answer2= CodedResponse.response2(inp2)
     erb :respond2
   end
+  get '/home' do
+    erb :index
+  end
 end

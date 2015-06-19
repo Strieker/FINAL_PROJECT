@@ -21,9 +21,9 @@ body {
 /*   font-family:wingdings; */
   font-size:20px;
   border: 4px solid white;
-  margin-left:33%;
-  margin-right:33%;
-  width:34%;
+  margin-left:5%;
+  margin-right:5%;
+/*   width:80%; */
   padding:10px;
   border-radius:20%;
   background-color:white;
@@ -35,4 +35,8 @@ div {
   margin-left: 30%;
   margin-right: 30%;
   width: 40%;
+}
+.submitbutton {
+ border: 2px solid white;
+ font-family: 'Montserrat', sans-serif;
 }
