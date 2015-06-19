@@ -2,12 +2,16 @@
 font-family: 'Six Caps', sans-serif;
 font-size:200px;
 text-align:center;
+margin-bottom: 20px;
+margin-top: 20px;
+color: white;
 }
 body {
-  font-family: 'Six Caps', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:bold;
-  color: white;
+  color: black;
   background: url(../images/matrix-animated-image.gif);
+  font-size: 20px;
 }
 h2 {
   text-align: center
@@ -20,8 +24,14 @@ form {
   width:33%;
   padding:10px;
   border-radius:20%;
+  background-color: white;
+  
 }
 .submitbutton {
  border: 2px solid white;
- font-family: 'Six Caps', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+  color: grey;
 }
