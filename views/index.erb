@@ -7,12 +7,14 @@
   </head>
   <body>
     <h1 id="title"> CRYPT </h1>
-    <form method="post">
-      <label for "encrypt"> ENCRYPT </label> <input type ="text" name = "encrypt">
+    <form method="post" action = "/encrypt">
+      <label for "encrypt"> Type Message Here:</label> <input type ="text" name = "encrypt">
+      <input class="submitbutton" type="submit" value="Encrypt">
+    </form>
       <br>
-      <label for "decrypt"> DECRYPT <input type="text" name="decrypt">
-       <br>
-     <input class="submitbutton" type="submit" value="SUBMIT!">
-        </form>
+    <form method="post" action = "/decrypt">
+      <label for "decrypt"> Type Message Here:</label><input type="text" name="decrypt">
+     <input class="submitbutton" type="submit" value="Decrypt">
+     </form>
   </body>
 </html>

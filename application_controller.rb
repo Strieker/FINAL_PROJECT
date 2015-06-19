@@ -7,12 +7,16 @@ class MyApp < Sinatra::Base
   get '/' do
     erb :index
   end
-  post '/' do
+  post '/encrypt' do
     CodedResponse=Result.new
     inp1=params[:encrypt]
     @answer1= CodedResponse.response1(inp1)
+    erb :respond
+  end
+  post '/decrypt' do
+    CodedResponse=Result.new
     inp2=params[:decrypt]
     @answer2= CodedResponse.response2(inp2)
-    erb :respond
+    erb :respond2
   end
 end

@@ -11,7 +11,7 @@ body {
   background: url(../images/matrix-animated-image.gif);
 }
 
-#encrypted {
+#decrypted {
 /*   font-family:wingdings; */
   font-size:100px;
 }
